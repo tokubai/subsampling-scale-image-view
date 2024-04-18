@@ -186,6 +186,18 @@ public class SubsamplingScaleImageView extends View {
     private boolean zoomEnabled = true;
     private boolean quickScaleEnabled = true;
 
+    /**
+     * Enable pan gesture at left or right edge.
+     * If true, pan gesture is enabled at left or right edge of the view and this view will consume move event at x edges.
+     */
+    private boolean enablePanAtXEdge = false;
+
+    /**
+     * Enable pan gesture at top or bottom edge.
+     * If true, pan gesture is enabled at top or bottom edge of the view and this view will consume move event at y edges.
+     */
+    private boolean enablePanAtYEdge = false;
+
     // Double tap zoom behaviour
     private float doubleTapZoomScale = 1F;
     private int doubleTapZoomStyle = ZOOM_FOCUS_FIXED;
@@ -864,7 +876,7 @@ public class SubsamplingScaleImageView extends View {
                             boolean edgeXSwipe = atXEdge && dx > dy && !isPanning;
                             boolean edgeYSwipe = atYEdge && dy > dx && !isPanning;
                             boolean yPan = lastY == vTranslate.y && dy > offset * 3;
-                            if (!edgeXSwipe && !edgeYSwipe && (!atXEdge || !atYEdge || yPan || isPanning)) {
+                            if ((!edgeXSwipe || enablePanAtXEdge) && (!edgeYSwipe || enablePanAtYEdge) && (!atXEdge || !atYEdge || yPan || isPanning)) {
                                 isPanning = true;
                             } else if (dx > offset || dy > offset) {
                                 // Haven't panned the image, and we're at the left or right edge. Switch to page swipe.
@@ -2685,6 +2697,18 @@ public class SubsamplingScaleImageView extends View {
         this.sPendingCenter = sCenter;
         this.sRequestedCenter = sCenter;
         invalidate();
+    }
+
+    /**
+     * Set the enablement of the pan gesture on the edge.
+     * This might be useful if you want to enable scroll at edge of this view.
+     */
+    public final void setEnablePanAtEdge(
+        boolean enablePanAtXEdge,
+        boolean enablePanAtYEdge
+    ) {
+        this.enablePanAtXEdge = enablePanAtXEdge;
+        this.enablePanAtYEdge = enablePanAtYEdge;
     }
 
     /**
