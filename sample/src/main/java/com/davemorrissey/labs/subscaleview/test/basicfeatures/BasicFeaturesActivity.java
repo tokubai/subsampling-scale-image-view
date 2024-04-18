@@ -30,6 +30,7 @@ public class BasicFeaturesActivity extends AbstractPagesActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         SubsamplingScaleImageView view = findViewById(id.imageView);
+        view.setExtraSpace(100f, 100f, 100f, 100f);
         view.setImage(ImageSource.asset("sanmartino.jpg"));
     }
 
