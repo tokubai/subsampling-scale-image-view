@@ -5,7 +5,7 @@ import android.graphics.*;
 import android.graphics.Paint.Cap;
 import android.graphics.Paint.Style;
 import android.util.AttributeSet;
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import jp.co.tokubai.SubsamplingScaleImageView;
 
 public class CircleView extends SubsamplingScaleImageView {
 

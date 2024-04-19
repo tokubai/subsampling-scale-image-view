@@ -3,8 +3,8 @@ package com.davemorrissey.labs.subscaleview.test.basicfeatures;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 
-import com.davemorrissey.labs.subscaleview.ImageSource;
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import jp.co.tokubai.ImageSource;
+import jp.co.tokubai.SubsamplingScaleImageView;
 import com.davemorrissey.labs.subscaleview.test.AbstractPagesActivity;
 import com.davemorrissey.labs.subscaleview.test.Page;
 import com.davemorrissey.labs.subscaleview.test.R.id;

@@ -103,7 +103,7 @@ dependencies {
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+    <jp.co.tokubai.SubsamplingScaleImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

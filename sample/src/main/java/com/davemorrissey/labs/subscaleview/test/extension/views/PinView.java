@@ -3,7 +3,7 @@ package com.davemorrissey.labs.subscaleview.test.extension.views;
 import android.content.Context;
 import android.graphics.*;
 import android.util.AttributeSet;
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import jp.co.tokubai.SubsamplingScaleImageView;
 import com.davemorrissey.labs.subscaleview.test.R.drawable;
 
 

@@ -5,8 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import android.view.View;
 
-import com.davemorrissey.labs.subscaleview.ImageSource;
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView.AnimationBuilder;
+import jp.co.tokubai.ImageSource;
+import jp.co.tokubai.SubsamplingScaleImageView.AnimationBuilder;
 import com.davemorrissey.labs.subscaleview.test.AbstractPagesActivity;
 import com.davemorrissey.labs.subscaleview.test.Page;
 import com.davemorrissey.labs.subscaleview.test.R.id;
@@ -15,7 +15,7 @@ import com.davemorrissey.labs.subscaleview.test.extension.views.PinView;
 import java.util.Arrays;
 import java.util.Random;
 
-import static com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView.*;
+import static jp.co.tokubai.SubsamplingScaleImageView.*;
 import static com.davemorrissey.labs.subscaleview.test.R.string.*;
 import static com.davemorrissey.labs.subscaleview.test.R.layout.*;
 

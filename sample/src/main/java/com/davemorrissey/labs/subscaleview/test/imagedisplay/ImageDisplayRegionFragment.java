@@ -9,13 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.davemorrissey.labs.subscaleview.ImageSource;
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
-import com.davemorrissey.labs.subscaleview.decoder.CompatDecoderFactory;
-import com.davemorrissey.labs.subscaleview.decoder.ImageDecoder;
-import com.davemorrissey.labs.subscaleview.decoder.ImageRegionDecoder;
-import com.davemorrissey.labs.subscaleview.decoder.SkiaImageDecoder;
-import com.davemorrissey.labs.subscaleview.decoder.SkiaImageRegionDecoder;
+import jp.co.tokubai.ImageSource;
+import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.decoder.CompatDecoderFactory;
+import jp.co.tokubai.decoder.ImageDecoder;
+import jp.co.tokubai.decoder.ImageRegionDecoder;
+import jp.co.tokubai.decoder.SkiaImageDecoder;
+import jp.co.tokubai.decoder.SkiaImageRegionDecoder;
 import com.davemorrissey.labs.subscaleview.test.R.id;
 import com.davemorrissey.labs.subscaleview.test.R.layout;
 

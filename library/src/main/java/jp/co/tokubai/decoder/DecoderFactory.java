@@ -1,4 +1,4 @@
-package com.davemorrissey.labs.subscaleview.decoder;
+package jp.co.tokubai.decoder;
 
 import androidx.annotation.NonNull;
 

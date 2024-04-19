@@ -12,7 +12,7 @@ android {
         targetSdkVersion 34
         consumerProguardFiles 'proguard-rules.txt'
     }
-    namespace 'com.davemorrissey.labs.subscaleview'
+    namespace 'jp.co.tokubai.subscaleview'
 }
 
 configurations {

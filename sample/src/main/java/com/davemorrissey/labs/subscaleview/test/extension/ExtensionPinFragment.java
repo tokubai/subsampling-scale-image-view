@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.davemorrissey.labs.subscaleview.ImageSource;
+import jp.co.tokubai.ImageSource;
 import com.davemorrissey.labs.subscaleview.test.R.id;
 import com.davemorrissey.labs.subscaleview.test.R.layout;
 import com.davemorrissey.labs.subscaleview.test.extension.views.PinView;

@@ -1,4 +1,4 @@
-package com.davemorrissey.labs.subscaleview;
+package jp.co.tokubai;
 
 import android.graphics.Bitmap;
 import android.graphics.Rect;

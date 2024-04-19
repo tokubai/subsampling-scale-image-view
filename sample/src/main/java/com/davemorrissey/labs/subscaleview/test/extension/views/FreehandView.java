@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import jp.co.tokubai.SubsamplingScaleImageView;
 
 import java.util.ArrayList;
 import java.util.List;

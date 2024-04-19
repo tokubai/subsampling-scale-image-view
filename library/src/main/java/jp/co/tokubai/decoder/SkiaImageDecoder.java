@@ -1,4 +1,4 @@
-package com.davemorrissey.labs.subscaleview.decoder;
+package jp.co.tokubai.decoder;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -12,13 +12,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
-import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
+import jp.co.tokubai.SubsamplingScaleImageView;
 
 import java.io.InputStream;
 import java.util.List;
 
 /**
- * Default implementation of {@link com.davemorrissey.labs.subscaleview.decoder.ImageDecoder}
+ * Default implementation of {@link jp.co.tokubai.decoder.ImageDecoder}
  * using Android's {@link android.graphics.BitmapFactory}, based on the Skia library. This
  * works well in most circumstances and has reasonable performance, however it has some problems
  * with grayscale, indexed and CMYK images.

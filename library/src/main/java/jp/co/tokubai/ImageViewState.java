@@ -1,4 +1,4 @@
-package com.davemorrissey.labs.subscaleview;
+package jp.co.tokubai;
 
 import android.graphics.PointF;
 import androidx.annotation.NonNull;
