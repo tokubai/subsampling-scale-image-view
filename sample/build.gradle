@@ -5,7 +5,7 @@ android {
     defaultConfig {
         minSdkVersion 17
         targetSdkVersion 34
-        applicationId "com.davemorrissey.labs.subscaleview.test"
+        applicationId "jp.co.tokubai.subscaleview.test"
     }
 
     sourceSets {
@@ -13,7 +13,7 @@ android {
             assets.srcDirs = ['assets']
         }
     }
-    namespace 'com.davemorrissey.labs.subscaleview.test'
+    namespace 'jp.co.tokubai.subscaleview.test'
 }
 
 dependencies {
