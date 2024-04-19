@@ -5,11 +5,11 @@ archivesBaseName = 'subsampling-scale-image-view-androidx'
 version = '3.10.0'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 30
+        targetSdkVersion 34
         consumerProguardFiles 'proguard-rules.txt'
     }
     namespace 'com.davemorrissey.labs.subscaleview'
