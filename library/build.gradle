@@ -1,8 +1,5 @@
 apply plugin: 'com.android.library'
-
-group = 'com.davemorrissey.labs'
-archivesBaseName = 'subsampling-scale-image-view-androidx'
-version = '3.10.0'
+apply plugin: 'maven-publish'
 
 android {
     compileSdkVersion 34
@@ -25,4 +22,17 @@ dependencies {
     javadocs 'androidx.exifinterface:exifinterface:1.3.7'
     implementation 'androidx.annotation:annotation:1.7.1'
     implementation 'androidx.exifinterface:exifinterface:1.3.7'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'jp.co.tokubai'
+                artifactId = 'subsampling-scale-image-view'
+                version = '0.1.0'
+            }
+        }
+    }
 }
