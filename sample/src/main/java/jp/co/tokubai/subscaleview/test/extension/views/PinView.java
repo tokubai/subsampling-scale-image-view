@@ -1,9 +1,9 @@
-package jp.co.tokubai.extension.views;
+package jp.co.tokubai.subscaleview.test.extension.views;
 
 import android.content.Context;
 import android.graphics.*;
 import android.util.AttributeSet;
-import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
 import jp.co.tokubai.subscaleview.test.R.drawable;
 
 

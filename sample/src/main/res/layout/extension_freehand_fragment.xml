@@ -20,7 +20,7 @@
 
     </RelativeLayout>
 
-    <jp.co.tokubai.extension.views.FreehandView
+    <jp.co.tokubai.subscaleview.test.extension.views.FreehandView
         style="@style/mainPanel" android:id="@+id/imageView"/>
 
 </RelativeLayout>

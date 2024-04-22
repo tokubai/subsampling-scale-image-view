@@ -1,4 +1,4 @@
-package jp.co.tokubai.extension;
+package jp.co.tokubai.subscaleview.test.extension;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -7,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import jp.co.tokubai.ImageSource;
+import jp.co.tokubai.subscaleview.ImageSource;
 import jp.co.tokubai.subscaleview.test.R.id;
 import jp.co.tokubai.subscaleview.test.R.layout;
-import jp.co.tokubai.extension.views.FreehandView;
+import jp.co.tokubai.subscaleview.test.extension.views.FreehandView;
 
 public class ExtensionFreehandFragment extends Fragment {
 

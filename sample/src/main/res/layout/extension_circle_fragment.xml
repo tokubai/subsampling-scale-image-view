@@ -14,7 +14,7 @@
 
     </RelativeLayout>
 
-    <jp.co.tokubai.extension.views.CircleView
+    <jp.co.tokubai.subscaleview.test.extension.views.CircleView
         style="@style/mainPanel" android:id="@+id/imageView"/>
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package jp.co.tokubai;
+package jp.co.tokubai.subscaleview.test;
 
 import android.app.ActionBar;
 import android.os.Bundle;
@@ -11,8 +11,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import java.util.List;
-
-import jp.co.tokubai.subscaleview.test.R;
 
 public abstract class AbstractPagesActivity extends FragmentActivity {
 

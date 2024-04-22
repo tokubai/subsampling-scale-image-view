@@ -1,4 +1,4 @@
-package jp.co.tokubai;
+package jp.co.tokubai.subscaleview.test;
 
 import android.app.ActionBar;
 import android.os.Bundle;

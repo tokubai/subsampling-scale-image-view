@@ -1,4 +1,4 @@
-package jp.co.tokubai.extension.views;
+package jp.co.tokubai.subscaleview.test.extension.views;
 
 import android.content.Context;
 import android.graphics.*;
@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
 
 import java.util.ArrayList;
 import java.util.List;

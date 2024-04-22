@@ -1,4 +1,4 @@
-package jp.co.tokubai.viewpager;
+package jp.co.tokubai.subscaleview.test.viewpager;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -7,8 +7,8 @@ import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import android.view.View;
 
-import jp.co.tokubai.AbstractPagesActivity;
-import jp.co.tokubai.Page;
+import jp.co.tokubai.subscaleview.test.AbstractPagesActivity;
+import jp.co.tokubai.subscaleview.test.Page;
 import jp.co.tokubai.subscaleview.test.R;
 
 import java.util.Arrays;

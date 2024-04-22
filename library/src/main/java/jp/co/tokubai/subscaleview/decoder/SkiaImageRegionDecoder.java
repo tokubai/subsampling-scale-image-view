@@ -1,4 +1,4 @@
-package jp.co.tokubai.decoder;
+package jp.co.tokubai.subscaleview.decoder;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.text.TextUtils;
 
-import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
 
 import java.io.InputStream;
 import java.util.List;
@@ -22,7 +22,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * Default implementation of {@link jp.co.tokubai.decoder.ImageRegionDecoder}
+ * Default implementation of {@link ImageRegionDecoder}
  * using Android's {@link android.graphics.BitmapRegionDecoder}, based on the Skia library. This
  * works well in most circumstances and has reasonable performance due to the cached decoder instance,
  * however it has some problems with grayscale, indexed and CMYK images.

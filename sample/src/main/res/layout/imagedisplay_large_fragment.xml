@@ -14,7 +14,7 @@
 
     </RelativeLayout>
 
-    <jp.co.tokubai.SubsamplingScaleImageView
+    <jp.co.tokubai.subscaleview.SubsamplingScaleImageView
         style="@style/mainPanel" android:id="@+id/imageView"/>
 
 </RelativeLayout>

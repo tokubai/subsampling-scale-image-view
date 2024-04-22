@@ -1,4 +1,4 @@
-package jp.co.tokubai.imagedisplay;
+package jp.co.tokubai.subscaleview.test.imagedisplay;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -7,8 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import jp.co.tokubai.ImageSource;
-import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.ImageSource;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
 import jp.co.tokubai.subscaleview.test.R.id;
 import jp.co.tokubai.subscaleview.test.R.layout;
 

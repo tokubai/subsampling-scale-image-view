@@ -22,7 +22,7 @@
         android:theme="@style/sampleTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name="jp.co.tokubai.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app.name">
             <intent-filter>
@@ -30,13 +30,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="jp.co.tokubai.basicfeatures.BasicFeaturesActivity" />
-        <activity android:name="jp.co.tokubai.imagedisplay.ImageDisplayActivity" />
-        <activity android:name="jp.co.tokubai.eventhandling.EventHandlingActivity" />
-        <activity android:name="jp.co.tokubai.eventhandlingadvanced.AdvancedEventHandlingActivity" />
-        <activity android:name="jp.co.tokubai.viewpager.ViewPagerActivity" />
-        <activity android:name="jp.co.tokubai.animation.AnimationActivity" />
-        <activity android:name="jp.co.tokubai.extension.ExtensionActivity" />
-        <activity android:name="jp.co.tokubai.configuration.ConfigurationActivity" />
+        <activity android:name=".basicfeatures.BasicFeaturesActivity" />
+        <activity android:name=".imagedisplay.ImageDisplayActivity" />
+        <activity android:name=".eventhandling.EventHandlingActivity" />
+        <activity android:name=".eventhandlingadvanced.AdvancedEventHandlingActivity" />
+        <activity android:name=".viewpager.ViewPagerActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".extension.ExtensionActivity" />
+        <activity android:name=".configuration.ConfigurationActivity" />
     </application>
 </manifest>

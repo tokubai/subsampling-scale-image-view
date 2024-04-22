@@ -1,4 +1,4 @@
-package jp.co.tokubai.eventhandlingadvanced;
+package jp.co.tokubai.subscaleview.test.eventhandlingadvanced;
 
 import android.graphics.PointF;
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Toast;
 
-import jp.co.tokubai.ImageSource;
-import jp.co.tokubai.SubsamplingScaleImageView;
-import jp.co.tokubai.AbstractPagesActivity;
-import jp.co.tokubai.Page;
+import jp.co.tokubai.subscaleview.ImageSource;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.test.AbstractPagesActivity;
+import jp.co.tokubai.subscaleview.test.Page;
 import jp.co.tokubai.subscaleview.test.R.id;
 
 import java.util.Arrays;

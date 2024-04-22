@@ -1,4 +1,4 @@
-package jp.co.tokubai.viewpager;
+package jp.co.tokubai.subscaleview.test.viewpager;
 
 import android.content.Context;
 import androidx.annotation.NonNull;

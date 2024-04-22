@@ -1,11 +1,11 @@
-package jp.co.tokubai.extension.views;
+package jp.co.tokubai.subscaleview.test.extension.views;
 
 import android.content.Context;
 import android.graphics.*;
 import android.graphics.Paint.Cap;
 import android.graphics.Paint.Style;
 import android.util.AttributeSet;
-import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
 
 public class CircleView extends SubsamplingScaleImageView {
 

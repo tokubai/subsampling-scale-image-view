@@ -1,4 +1,4 @@
-package jp.co.tokubai.decoder;
+package jp.co.tokubai.subscaleview.decoder;
 
 import android.graphics.Bitmap;
 import androidx.annotation.NonNull;

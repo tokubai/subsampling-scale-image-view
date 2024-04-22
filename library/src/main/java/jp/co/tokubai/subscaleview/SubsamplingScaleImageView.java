@@ -1,4 +1,4 @@
-package jp.co.tokubai;
+package jp.co.tokubai.subscaleview;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -32,12 +32,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewParent;
 import jp.co.tokubai.subscaleview.R.styleable;
-import jp.co.tokubai.decoder.CompatDecoderFactory;
-import jp.co.tokubai.decoder.DecoderFactory;
-import jp.co.tokubai.decoder.ImageDecoder;
-import jp.co.tokubai.decoder.ImageRegionDecoder;
-import jp.co.tokubai.decoder.SkiaImageDecoder;
-import jp.co.tokubai.decoder.SkiaImageRegionDecoder;
+import jp.co.tokubai.subscaleview.decoder.CompatDecoderFactory;
+import jp.co.tokubai.subscaleview.decoder.DecoderFactory;
+import jp.co.tokubai.subscaleview.decoder.ImageDecoder;
+import jp.co.tokubai.subscaleview.decoder.ImageRegionDecoder;
+import jp.co.tokubai.subscaleview.decoder.SkiaImageDecoder;
+import jp.co.tokubai.subscaleview.decoder.SkiaImageRegionDecoder;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Arrays;

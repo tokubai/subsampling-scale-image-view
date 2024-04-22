@@ -1,4 +1,4 @@
-package jp.co.tokubai;
+package jp.co.tokubai.subscaleview;
 
 import android.graphics.PointF;
 import androidx.annotation.NonNull;

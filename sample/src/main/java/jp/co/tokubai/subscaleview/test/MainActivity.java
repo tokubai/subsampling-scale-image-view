@@ -1,4 +1,4 @@
-package jp.co.tokubai;
+package jp.co.tokubai.subscaleview.test;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -7,16 +7,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-import jp.co.tokubai.subscaleview.test.R;
 import jp.co.tokubai.subscaleview.test.R.id;
-import jp.co.tokubai.animation.AnimationActivity;
-import jp.co.tokubai.basicfeatures.BasicFeaturesActivity;
-import jp.co.tokubai.configuration.ConfigurationActivity;
-import jp.co.tokubai.eventhandling.EventHandlingActivity;
-import jp.co.tokubai.eventhandlingadvanced.AdvancedEventHandlingActivity;
-import jp.co.tokubai.extension.ExtensionActivity;
-import jp.co.tokubai.imagedisplay.ImageDisplayActivity;
-import jp.co.tokubai.viewpager.ViewPagerActivity;
+import jp.co.tokubai.subscaleview.test.animation.AnimationActivity;
+import jp.co.tokubai.subscaleview.test.basicfeatures.BasicFeaturesActivity;
+import jp.co.tokubai.subscaleview.test.configuration.ConfigurationActivity;
+import jp.co.tokubai.subscaleview.test.eventhandling.EventHandlingActivity;
+import jp.co.tokubai.subscaleview.test.eventhandlingadvanced.AdvancedEventHandlingActivity;
+import jp.co.tokubai.subscaleview.test.extension.ExtensionActivity;
+import jp.co.tokubai.subscaleview.test.imagedisplay.ImageDisplayActivity;
+import jp.co.tokubai.subscaleview.test.viewpager.ViewPagerActivity;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 

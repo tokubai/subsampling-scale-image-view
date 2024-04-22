@@ -1,4 +1,4 @@
-package jp.co.tokubai.decoder;
+package jp.co.tokubai.subscaleview.decoder;
 
 import android.content.Context;
 import android.graphics.Bitmap;

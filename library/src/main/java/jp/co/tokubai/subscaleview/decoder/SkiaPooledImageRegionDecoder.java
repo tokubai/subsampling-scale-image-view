@@ -1,4 +1,4 @@
-package jp.co.tokubai.decoder;
+package jp.co.tokubai.subscaleview.decoder;
 
 import android.app.ActivityManager;
 import android.content.ContentResolver;
@@ -20,7 +20,7 @@ import androidx.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 
-import jp.co.tokubai.SubsamplingScaleImageView;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView;
 
 import java.io.File;
 import java.io.FileFilter;

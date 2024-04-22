@@ -1,12 +1,12 @@
-package jp.co.tokubai.extension;
+package jp.co.tokubai.subscaleview.test.extension;
 
 import androidx.fragment.app.Fragment;
 import android.util.Log;
 
-import jp.co.tokubai.AbstractFragmentsActivity;
-import jp.co.tokubai.Page;
+import jp.co.tokubai.subscaleview.test.AbstractFragmentsActivity;
+import jp.co.tokubai.subscaleview.test.Page;
 import jp.co.tokubai.subscaleview.test.R.id;
-import jp.co.tokubai.imagedisplay.ImageDisplayActivity;
+import jp.co.tokubai.subscaleview.test.imagedisplay.ImageDisplayActivity;
 
 import java.util.Arrays;
 import java.util.List;

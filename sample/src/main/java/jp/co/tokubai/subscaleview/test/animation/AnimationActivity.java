@@ -1,21 +1,21 @@
-package jp.co.tokubai.animation;
+package jp.co.tokubai.subscaleview.test.animation;
 
 import android.graphics.PointF;
 import android.os.Bundle;
 import androidx.annotation.Nullable;
 import android.view.View;
 
-import jp.co.tokubai.ImageSource;
-import jp.co.tokubai.SubsamplingScaleImageView.AnimationBuilder;
-import jp.co.tokubai.AbstractPagesActivity;
-import jp.co.tokubai.Page;
+import jp.co.tokubai.subscaleview.ImageSource;
+import jp.co.tokubai.subscaleview.SubsamplingScaleImageView.AnimationBuilder;
+import jp.co.tokubai.subscaleview.test.AbstractPagesActivity;
+import jp.co.tokubai.subscaleview.test.Page;
 import jp.co.tokubai.subscaleview.test.R.id;
-import jp.co.tokubai.extension.views.PinView;
+import jp.co.tokubai.subscaleview.test.extension.views.PinView;
 
 import java.util.Arrays;
 import java.util.Random;
 
-import static jp.co.tokubai.SubsamplingScaleImageView.*;
+import static jp.co.tokubai.subscaleview.SubsamplingScaleImageView.*;
 import static jp.co.tokubai.subscaleview.test.R.string.*;
 import static jp.co.tokubai.subscaleview.test.R.layout.*;
 

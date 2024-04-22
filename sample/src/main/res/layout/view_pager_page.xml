@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/fill">
 
-    <jp.co.tokubai.SubsamplingScaleImageView
+    <jp.co.tokubai.subscaleview.SubsamplingScaleImageView
         style="@style/fill" android:id="@+id/imageView"/>
 
 </RelativeLayout>
