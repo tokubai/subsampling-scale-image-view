@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
+group = 'jp.co.tokubai'
+version = '0.1.0'
+
 android {
     compileSdkVersion 34
 
@@ -10,6 +13,18 @@ android {
         consumerProguardFiles 'proguard-rules.txt'
     }
     namespace 'jp.co.tokubai.subscaleview'
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+
+        singleVariant('debug') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 configurations {
