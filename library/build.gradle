@@ -1,16 +1,29 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
-group = 'com.davemorrissey.labs'
-archivesBaseName = 'subsampling-scale-image-view-androidx'
-version = '3.10.0'
+group = 'jp.co.tokubai'
+version = '0.1.0'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 30
+        targetSdkVersion 34
         consumerProguardFiles 'proguard-rules.txt'
+    }
+    namespace 'jp.co.tokubai.subscaleview'
+
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+
+        singleVariant('debug') {
+            withSourcesJar()
+            withJavadocJar()
+        }
     }
 }
 
@@ -19,22 +32,22 @@ configurations {
 }
 
 dependencies {
-    implementation "androidx.appcompat:appcompat:1.2.0"
-    javadocs 'androidx.annotation:annotation:1.1.0'
-    javadocs 'androidx.exifinterface:exifinterface:1.3.2'
-    implementation 'androidx.annotation:annotation:1.1.0'
-    implementation 'androidx.exifinterface:exifinterface:1.3.2'
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    javadocs 'androidx.annotation:annotation:1.7.1'
+    javadocs 'androidx.exifinterface:exifinterface:1.3.7'
+    implementation 'androidx.annotation:annotation:1.7.1'
+    implementation 'androidx.exifinterface:exifinterface:1.3.7'
 }
 
-task javadoc(type: Javadoc) {
-    failOnError false
-    source = android.sourceSets.main.java.sourceFiles
-    destinationDir = rootProject.file("docs/javadoc")
-    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
-    classpath += configurations.compile
-    classpath += configurations.javadocs
-    options.noTimestamp = true
-    options.links = ['https://developer.android.com/reference/']
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.findByName('release')
+                groupId = 'jp.co.tokubai'
+                artifactId = 'subsampling-scale-image-view'
+                version = '0.1.0'
+            }
+        }
+    }
 }
-
-apply from: rootProject.file('release.gradle')

@@ -13,6 +13,7 @@
 
     </RelativeLayout>
 
-    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView style="@style/mainPanel" android:id="@+id/imageView"/>
+    <jp.co.tokubai.subscaleview.SubsamplingScaleImageView
+        style="@style/mainPanel" android:id="@+id/imageView"/>
 
 </RelativeLayout>

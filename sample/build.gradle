@@ -1,11 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 34
     defaultConfig {
         minSdkVersion 17
-        targetSdkVersion 27
-        applicationId "com.davemorrissey.labs.subscaleview.test"
+        targetSdkVersion 34
+        applicationId "jp.co.tokubai.subscaleview.test"
     }
 
     sourceSets {
@@ -13,6 +13,7 @@ android {
             assets.srcDirs = ['assets']
         }
     }
+    namespace 'jp.co.tokubai.subscaleview.test'
 }
 
 dependencies {
