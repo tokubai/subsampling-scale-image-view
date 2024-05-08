@@ -1,3 +1,36 @@
+
+This repository is a fork of [davemorrissey/subsampling-scale-image-view](https://github.com/davemorrissey/subsampling-scale-image-view)
+==========================
+
+## Main changes from the original library
+- An option for setting extra padding
+  - https://github.com/davemorrissey/subsampling-scale-image-view/pull/424
+- Enable pan jesture at y edges
+
+## How to use
+
+1. Add it in your root build.gradle at the end of repositories:
+```
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+2. Add the dependency
+```
+dependencies {
+    implementation 'com.github.tokubai:subsampling-scale-image-view:0.1.2'
+}
+```
+https://jitpack.io/#tokubai/subsampling-scale-image-view
+
+
+# ↓Original Subsampling Scale Image View's README
+
 Subsampling Scale Image View
 ===========================
 
